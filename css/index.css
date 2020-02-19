@@ -1,6 +1,7 @@
 body{
   margin: 0;
   padding:  0;
+  background: #f1f1f1 url(./images/59612250_107504347129242_1992807513300402176_n.jpg) no-repeat top center;
 }
 
 .image-container{
@@ -42,9 +43,20 @@ body{
   width: 100%;
 }
 
+.info-container{
+  /* box-sizing: border-box; */
+}
+.custom-img{
+  object-fit: cover;
+  height: 600px;
+}
 
 @media (max-width: 600px){
   .title{
     font-size: 22px;
   }
+  .custom-img{
+    height: 300px;
+  }
 } 
+

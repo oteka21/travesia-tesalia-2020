@@ -2,6 +2,7 @@ body{
   margin: 0;
   padding:  0;
   background: #f1f1f1 url(./images/59612250_107504347129242_1992807513300402176_n.jpg) no-repeat top center;
+  background-attachment: fixed;
 }
 
 .image-container{
@@ -41,10 +42,6 @@ body{
   margin: 0 10%;
   text-align: center;
   width: 100%;
-}
-
-.info-container{
-  /* box-sizing: border-box; */
 }
 .custom-img{
   object-fit: cover;
